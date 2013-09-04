@@ -23,6 +23,7 @@ default['postfix']['use_procmail'] = false
 default['postfix']['aliases'] = {}
 default['postfix']['main_template_source'] = "postfix"
 default['postfix']['master_template_source'] = "postfix"
+default['postfix']['port'] = "25"
 
 # Non-default main.cf attributes
 default['postfix']['main']['biff'] = "no"
